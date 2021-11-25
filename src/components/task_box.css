@@ -1,0 +1,16 @@
+html{
+	font-size:100%;
+}
+.tasks_box{
+	padding:3rem 0 3rem 0;
+	display:grid;
+	position:relative;
+	justify-items: center;
+	width:100%;
+	height:100%;
+}
+@media (max-width:380px) {
+	.tasks_box{
+		margin:0 20px;
+	}
+}
